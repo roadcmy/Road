@@ -5,7 +5,7 @@
     <string name="login">登录</string>
     <string name="register">新用户注册</string>
     <string name="f_password">忘记密码</string>
-    <string name="up_re">登录/注册</string>
+    <string name="login_sign">登录/注册</string>
     <string name="zh">123456</string>
     <string name="account_can_not_be_empty">Account can\'t be empty</string>
     <string name="password_can_not_be_empty">Password can\'t be empty</string>
