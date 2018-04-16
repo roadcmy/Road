@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="100dp">
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/icon_logo"
+            android:paddingTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"></LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="@string/account"
+            android:textColorHint="@color/white"
+            android:textSize="16sp"
+            android:background="@color/button_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/password"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                android:background="@color/button_gray"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="20dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@color/login_red"
+                android:text="@string/login"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="40dp">
+
+                <Button
+                    android:id="@+id/btnForget"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="0dp"
+                    android:text="@string/f_password"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="-22dp"
+                    android:background="@color/alpha"/>
+
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register"
+                    android:textSize="12sp"
+                    android:background="@color/alpha"
+                    android:layout_marginLeft="39dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

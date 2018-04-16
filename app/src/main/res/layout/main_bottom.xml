@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:listDivider">
+    </View>
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="54dp">
+
+        <LinearLayout
+            android:id="@+id/ll_activity_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_activity_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/activity_off"/>
+
+            <TextView
+                android:id="@+id/tv_activity_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="活动"
+                android:textSize="14sp"
+                android:textColor="@color/home_back_unselected"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_map_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_map_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/map_off"/>
+
+            <TextView
+                android:id="@+id/tv_map_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地图"
+                android:textSize="14sp"
+                android:textColor="@color/home_back_unselected"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_info_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_info_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/info_off"/>
+
+            <TextView
+                android:id="@+id/tv_info_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息"
+                android:textSize="14sp"
+                android:textColor="@color/home_back_unselected"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_set_icon"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_set_icon"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/set_off"/>
+
+            <TextView
+                android:id="@+id/tv_set_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统"
+                android:textSize="14sp"
+                android:textColor="@color/home_back_unselected"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
