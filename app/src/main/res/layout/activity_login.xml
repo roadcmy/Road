@@ -22,36 +22,21 @@
             android:background="@drawable/icon_logo"
             android:paddingTop="10dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="85dp"></LinearLayout>
-
         <RelativeLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingLeft="12dp"
-            android:paddingRight="12dp">
+            android:paddingTop="85dp">
 
-        </RelativeLayout>
+            <EditText
+                android:id="@+id/account"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:hint="@string/account"
+                android:textColorHint="@color/white"
+                android:textSize="16sp"
+                android:background="@color/button_gray"/>
 
-        <EditText
-            android:id="@+id/account"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:hint="@string/account"
-            android:textColorHint="@color/white"
-            android:textSize="16sp"
-            android:background="@color/button_gray"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="10dp"></LinearLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="12dp"
-            android:paddingRight="12dp">
 
             <EditText
                 android:id="@+id/password"
@@ -59,19 +44,13 @@
                 android:layout_height="40dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
+                android:paddingLeft="20dp"
                 android:hint="@string/password"
                 android:textColorHint="@color/white"
                 android:textSize="16sp"
-                android:background="@color/button_gray"/>
+                android:background="@color/button_gray"
+                android:layout_marginTop="50dp"/>
         </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="200dp"
-            android:layout_height="20dp"></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="200dp"
-            android:layout_height="40dp">
 
             <Button
                 android:id="@+id/btnLogin"
@@ -80,16 +59,12 @@
                 android:background="@color/login_red"
                 android:text="@string/login"
                 android:textSize="20sp"
-                android:textColor="@color/white"/>
-        </LinearLayout>
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
 
         <LinearLayout
             android:layout_width="200dp"
             android:layout_height="40dp">
-
-            <LinearLayout
-                android:layout_width="200dp"
-                android:layout_height="40dp">
 
                 <Button
                     android:id="@+id/btnForget"
@@ -98,7 +73,7 @@
                     android:layout_marginRight="0dp"
                     android:text="@string/f_password"
                     android:textSize="12sp"
-                    android:layout_marginLeft="-22dp"
+                    android:paddingRight="48dp"
                     android:background="@color/alpha"/>
 
 
@@ -109,15 +84,10 @@
                     android:text="@string/register"
                     android:textSize="12sp"
                     android:background="@color/alpha"
-                    android:layout_marginLeft="39dp"/>
-            </LinearLayout>
-
+                    android:paddingLeft="36dp"/>
         </LinearLayout>
 
-
-
     </LinearLayout>
-
 
 </LinearLayout>
 
