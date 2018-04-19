@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pic"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="35dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+
+        android:text="账号注册"
+        android:textColor="#FF0000"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="登录名"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:id="@+id/et_account"
+        android:layout_width="317dp"
+        android:layout_height="42dp"
+        android:background="#FFF0F5"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="密码"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="317dp"
+        android:layout_height="42dp"
+        android:background="#FFF0F5"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="204dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_red_dark"
+        android:text="立即注册"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</LinearLayout>
