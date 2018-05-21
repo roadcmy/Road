@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_gray">
+    <include layout="@layout/title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="353dp"
+        android:background="@color/white">
+       <ImageView
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:background="@drawable/fabu"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/wdfabu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="60dp"
+            android:text="我的发布"
+            android:textColor="@color/black"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myfabu"
+            android:layout_below="@+id/wdfabu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="172dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/tick"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:id="@+id/yicanjia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:paddingRight="60dp"
+            android:text="已参加"
+            android:textColor="@color/black"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/join"
+            android:layout_below="@+id/yicanjia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/collect2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/shoucang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="6dp"
+            android:paddingRight="60dp"
+            android:text="收藏"
+            android:textColor="@color/black"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/collection"
+            android:layout_below="@+id/shoucang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
