@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <!--音乐会图片-->
+        <ImageView
+            android:id="@+id/iv_mpicture"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitXY" />
+
+        <!--标题-->
+        <TextView
+            android:id="@+id/tv_musicTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_mpicture"
+            android:layout_toEndOf="@+id/iv_mpicture"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:lineSpacingMultiplier="1.5"
+            android:textSize="16sp"/>
+
+        <!--介绍-->
+        <TextView
+            android:id="@+id/tv_musicintroduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_musicTitle"
+            android:layout_toEndOf="@+id/iv_mpicture"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/pay_name"
+            android:lineSpacingExtra="5dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

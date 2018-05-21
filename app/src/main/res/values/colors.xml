@@ -35,7 +35,10 @@
     <color name="shouyi_grey">#999999</color>
     <color name="login_red">#cc0033</color>
     <color name="alpha">#00000000</color>
-
+    <color name="crimson">#dc143c</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="saddlebrown">#8b4513</color>
+    <color name="blackred">#613030</color>
 
     <drawable name="transparent_background">#00000000</drawable>
 

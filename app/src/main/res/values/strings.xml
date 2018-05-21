@@ -9,4 +9,7 @@
     <string name="zh">123456</string>
     <string name="account_can_not_be_empty">Account can\'t be empty</string>
     <string name="password_can_not_be_empty">Password can\'t be empty</string>
+    <string name="music">MUSIC</string>
+    <string name="hot">HOT</string>
+    <string name="movie">MOVIE</string>
 </resources>

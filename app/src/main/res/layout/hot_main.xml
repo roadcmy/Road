@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/activity_main" />
+
+    <RelativeLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_picture"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"/>
+
+        <RelativeLayout
+            android:layout_below="@+id/iv_picture"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/rl_ivpicture"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:scaleType="fitXY"/>
+
+            <!--热点标题-->
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@+id/rl_ivpicture"
+                android:layout_marginStart="5dp"
+                android:text="《法国派对》法国爵士钢琴王子"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <!--简介-->
+            <TextView
+                android:id="@+id/tv_brief"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_toEndOf="@+id/rl_ivpicture"
+                android:layout_marginStart="5dp"
+                android:text="sdfsfdwe"
+                android:textColor="@color/gray_gray"
+                android:textSize="12sp"/>
+
+            <!--时间-->
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_brief"
+                android:layout_toEndOf="@+id/rl_ivpicture"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:text="时间：2018.05.10"
+                android:textColor="@color/pay_name"/>
+
+            <!--场馆-->
+            <TextView
+                android:id="@+id/tv_venues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_time"
+                android:layout_toEndOf="@+id/rl_ivpicture"
+                android:layout_marginStart="5dp"
+                android:text="场馆：汤湖"
+                android:textColor="@color/pay_name"/>
+
+            <!--票价-->
+            <TextView
+                android:id="@+id/tv_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_venues"
+                android:layout_toEndOf="@+id/rl_ivpicture"
+                android:layout_marginStart="5dp"
+                android:text="票价：30.50.80"
+                android:textColor="@color/pay_name"/>
+
+            <ImageView
+                android:id="@+id/exclamatory_mark"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@id/rl_ivpicture"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/tv_insurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/exclamatory_mark"
+                android:layout_toEndOf="@+id/exclamatory_mark"
+                android:text="dsada"
+                android:textColor="@color/pay_name" />
+
+            <!--收藏-->
+            <ImageView
+                android:id="@+id/iv_collection"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
